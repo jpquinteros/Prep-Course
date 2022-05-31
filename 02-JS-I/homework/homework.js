@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  str = "String homework";
   return str;
 }
 
@@ -75,6 +74,10 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (str1.length === str2.length) {
+    return true;
+}
+    return false;
   
 }
 
@@ -163,12 +166,11 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-   var redondeoArriba = Math.ceil(num);
-   return redondearHaciaArriba; 
+   return Math.ceil(num); 
   
 }
 
-function numeroRandom() {
+function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
    var random = Math.random(num);
@@ -182,7 +184,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   var positivo = numero;
   if (numero >= 1) {
-    return "Es positivo.";
+    return "Es positivo";
   }
   else if (numero === 0) {
     return false
