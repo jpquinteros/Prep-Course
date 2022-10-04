@@ -1,6 +1,7 @@
 /* par ID es # para Class es .*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-japanese-fuji-mountain-cherry-blossom-background-picture-image_1002405.jpg);
 }
 #thirdDiv{
     height: 600px;
